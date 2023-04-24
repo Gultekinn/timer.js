@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(22, 22, 69, 0.159);
+}
+.container {
+  background-color: rgb(113, 119, 124);
+  width: 40px;
+  min-width: 500px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 20px 0;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.338);
+}
+
+.timer-display {
+  position: relative;
+  width: 92%;
+  background-color: rgba(52, 36, 66, 0.371);
+  left: 4%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 30px;
+  color: #42ee12b7;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(16, 241, 234, 0.425);
+}
+
+.buttons {
+  width: 90%;
+  margin: 60px auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.buttons button {
+  width: 120px;
+  height: 45px;
+  background-color: #0000006b;
+    color: #0ce036;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+.buttons button:nth-last-child(2){
+    background-color: #0000006b;
+    color: #0ce036;
+}
+.buttons button:nth-last-child(1){
+  background-color: #0000006b;
+  color: #0ce036;
+}
+.buttons button:hover{
+    box-shadow:0 0 20px rgba(170, 212, 55, 0.9) ;
+}
